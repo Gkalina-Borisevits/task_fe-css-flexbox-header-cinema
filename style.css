@@ -20,6 +20,7 @@ main {
 .logoBanner {
   width: 20%;
   height: 20%;
+  padding: 0 20px;
 }
 
 .navbar {
@@ -28,8 +29,8 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   top: 0;
-  left: 250px;
-  padding: 65px;
+  left: 280px;
+  padding: 80px;
   z-index: 1;
 }
 
@@ -40,21 +41,26 @@ a {
 }
 
 .playPicture {
-  opacity: 0.7; 
-
+  padding: 1px 10px;
+  opacity: 0.6;
+  width: 30px;
+  height: auto; 
 }
 
 .oscarPicture {
-  padding: 1px;
+  padding: 1px 15px;
   opacity: 0.7;
+  width: 30px;
+  height: auto; 
 }
 
 .play {
-  padding: 15px 43px;
+  padding: 10px 30px;
+  opacity: 0.7;
 }
 
 .oscar {
-  padding: 15px;
+  padding: 10px 43px;
   opacity: 0.7;
 }
 
