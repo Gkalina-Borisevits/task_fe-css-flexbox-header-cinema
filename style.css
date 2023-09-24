@@ -6,3 +6,69 @@ main {
   width: 400vh;
 }
 
+.header {
+  position: relative;
+}
+
+.imageBanner {
+  display: block;
+  height: auto;
+  width: 100%;
+  z-index: -2;
+}
+
+.logoBanner {
+  width: 20%;
+  height: 20%;
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  top: 0;
+  left: 250px;
+  padding: 65px;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  color:rgba(210, 204, 204, 0.7);
+  font-size: 24px; 
+}
+
+.playPicture {
+  opacity: 0.7; 
+
+}
+
+.oscarPicture {
+  padding: 1px;
+  opacity: 0.7;
+}
+
+.play {
+  padding: 15px 43px;
+}
+
+.oscar {
+  padding: 15px;
+  opacity: 0.7;
+}
+
+.serien {
+  background-color: rgba(235, 233, 233, 0.7);
+  background-clip: content-box;
+  padding: 20px;
+  border-radius: 30%;
+  border: 10px;
+  height: 40px;
+  width: 306px; 
+}
+
+.serienNavbar {
+  color: rgba(25, 24, 24, 0.6);
+  font-size: 21px;
+}
